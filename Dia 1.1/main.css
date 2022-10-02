@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+.corpo h1{
+    font-family: 'Magra';
+    font-size: 36px;
+    color: #000000;
+}
+
+.botao{
+    margin-top: 15px;
+    font-family: 'Magra';
+    font-size: 36px;
+    height: 86px;
+    width: 314px;
+    color: #FFFFFF;
+    border: none;
+    background: #993399;
+    border-radius: 4px;
+}
+
+.botao:hover{
+    transform: scale(110%);
+    background: #c51ec5;
+}
