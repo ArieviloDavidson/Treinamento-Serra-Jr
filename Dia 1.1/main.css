@@ -5,12 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .corpo{
     display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
-    margin-top: 40vh;
+    margin-top: 17%;
 }
 
 .corpo h1{
@@ -19,7 +20,13 @@
     color: #000000;
 }
 
-.botao{
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5%;
+}
+
+.botaoa{
     margin-top: 15px;
     font-family: 'Magra';
     font-size: 36px;
@@ -31,7 +38,20 @@
     border-radius: 4px;
 }
 
-.botao:hover{
+.botaor{
+    margin-top: 15px;
+    font-family: 'Magra';
+    font-size: 36px;
+    height: 86px;
+    width: 314px;
+    color: #FFFFFF;
+    border: none;
+    background: #993399;
+    border-radius: 4px;
+}
+
+.botaoa:hover, .botaor:hover{
+    cursor: pointer;
     transform: scale(110%);
     background: #c51ec5;
 }

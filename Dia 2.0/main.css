@@ -7,8 +7,11 @@
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -19,7 +22,6 @@ body{
     flex-direction: column;
     height: 500px;
     width: 600px;
-    margin-top: 6.5%;
 }
 
 form{
