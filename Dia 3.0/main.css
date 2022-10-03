@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+body{
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -24,10 +31,10 @@ header h1{
     flex-direction: row;
     gap: 72px;
     justify-content: center;
-    margin-top: 8%;
 }
 
 .card{
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     text-align: center;
