@@ -31,10 +31,12 @@ header h1{
     flex-direction: row;
     gap: 72px;
     justify-content: center;
+    align-items: center;
+    height: 77vh;
+    width: 100vw;
 }
 
 .card{
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -70,8 +72,8 @@ footer{
     background: #A50010;
     padding: 15px;
     bottom: 0;
-    position: fixed;
     width: 100%;
+    position: relative;
 }
 
 footer p{

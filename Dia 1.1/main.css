@@ -52,6 +52,6 @@
 
 .botaoa:hover, .botaor:hover{
     cursor: pointer;
-    transform: scale(110%);
+    transform: scale(110%); 
     background: #c51ec5;
 }
