@@ -1,10 +1,10 @@
-var botao = document.querySelector('#botao');
-var card = document.querySelector('.card');
+function funcao(){
+  var botao = document.querySelector('#botao');
+  var card = document.querySelector('.card');
 
-botão.addEventListener('click', function() {
-  if (card.style.display === 'flex') {
-    card.style.display = 'none';
+  if (card.style.opacity === '1') {
+    card.style.opacity = '0';
   } else {
-    card.style.display = 'flex';
+    card.style.opacity = '1';
   }
-});
+};

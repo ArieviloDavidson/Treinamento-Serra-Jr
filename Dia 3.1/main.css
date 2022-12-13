@@ -38,6 +38,7 @@ header h1{
 
 .card{
     display: flex;
+    opacity: 1;
     flex-direction: column;
     text-align: center;
     align-items: center;
