@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: #A50010;
+    padding: 30px 0px;
+}
+
+header h1{
+    font-family: 'Magra';
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 77vh;
+    width: 100vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #A50010;
+    height: 30vh;
+    width: 30vw;
+    gap: 10px;
+}
+
+.card h1{
+    width: 100vw;
+    font-family: 'Magra';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.card img{
+    margin-top: 22px;
+    width: 15%;
+}
+
+#botão{
+    width: 30vw;
+    height: 10vh;
+    background: #A50010;
+    border: none;
+}
+
+#botão:hover{
+    cursor: pointer;
+    background: #d60a1e;
+}
+
+#botão p{
+    font-family: 'Magra';
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background: #A50010;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+footer p{
+    font-family: 'Magra';
+    font-size: 24px;
+    color: #FFFFFF;
+}
