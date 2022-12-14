@@ -1,6 +1,13 @@
-var botaoa = document.querySelector('.botaoa');
-var num = document.querySelector('#num');
+var cont = 0;
 
-botaoa.addEventListener('click', function() {
-    num++;
-});
+function adcionar(){
+    // res = document.getElementById("num").value;
+    cont = cont + 1;
+    document.getElementById("num").innerHTML = "Integrantes totais no squad: " + cont;
+};
+
+function remover(){ 
+    // res = document.getElementById("num").value;
+    cont = cont - 1;
+    document.getElementById("num").innerHTML = "Integrantes totais no squad: " + cont;
+};

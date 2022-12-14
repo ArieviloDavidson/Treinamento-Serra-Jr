@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 2.1</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Serra Calculator</h1>
+    </header>
+
+    <div class="container">
+        <div class="corpo1">
+            <div class="card">
+                <div class="titulo">
+                    <h1>Soma</h1>
+                </div>
+            
+                <form>
+                    <div class="sub">
+                        <label for="soma1">Numero 1</label>
+                        <input type="number" name="soma1" id="soma1">
+                    </div>
+                    <div class="sub">
+                        <label for="soma2">Numero 2</label>
+                        <input type="number" name="soma2" id="soma2" onblur="somar()">
+                    </div>
+                    <div class="sub">
+                        <h1>Resultado</h1>
+                        <div id="ress"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="card">
+                <div class="titulo">
+                    <h1>Subtração</h1>
+                </div>
+            
+                <form>
+                    <div class="sub">
+                        <label for="sub1">Numero 1</label>
+                        <input type="number" name="sub1" id="sub1">
+                    </div>
+                    <div class="sub">
+                        <label for="sub2">Numero 2</label>
+                        <input type="number" name="sub2" id="sub2" onblur="sub()">
+                    </div>
+                    <div class="sub">
+                        <h1>Resultado</h1>
+                        <div id="ressu"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="corpo2">
+            <div class="card">
+                <div class="titulo">
+                    <h1>Multiplicação</h1>
+                </div>
+            
+                <form>
+                    <div class="sub">
+                        <label for="mult1">Numero 1</label>
+                        <input type="number" name="mult1" id="mult1">
+                    </div>
+                    <div class="sub">
+                        <label for="mult2">Numero 2</label>
+                        <input type="number" name="mult2" id="mult2" onblur="multi()">
+                    </div>
+                    <div class="sub">
+                        <h1>Resultado</h1>
+                        <div id="resm"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="card">
+                <div class="titulo">
+                    <h1>Divisão</h1>
+                </div>
+            
+                <form>
+                    <div class="sub">
+                        <label for="div1">Numero 1</label>
+                        <input type="number" name="div1" id="div1">
+                    </div>
+                    <div class="sub">
+                        <label for="div2">Numero 2</label>
+                        <input type="number" name="div2" id="div2" onblur="div()">
+                    </div>
+                    <div class="sub">
+                        <h1>Resultado</h1>
+                        <div id="resd"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
