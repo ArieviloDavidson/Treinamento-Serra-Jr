@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
+
+.corpo {
+    flex-direction: column;
+    padding: 0px 70px;
+    height: 100%;
+}
+
+.formulario {
+    display: flex;
+    gap: 3%;
+}
+
+input {
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+    width: 80%;
+    height: 60px;
+    font-family: 'Magra';
+    font-size: 20px;
+    justify-content: center;
+    padding-left: 3%;
+}
+
+::placeholder {
+    font-family: 'Magra';
+    font-size: 20px;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Magra';
+    width: 20%;
+    background: #00CED1;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background: #05dce0;
+}
+
+.tarefas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarefa {
+    list-style-type: none;
+    font-family: 'Magra';
+}
