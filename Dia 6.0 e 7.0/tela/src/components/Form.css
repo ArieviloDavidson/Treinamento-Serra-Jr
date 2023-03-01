@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+    width: 80%;
+    height: 50px;
+    font-family: 'Magra';
+    font-size: 20px;
+    padding-left: 3%;
+}
+
+button {
+    font-family: 'Magra';
+    width: 1280px;
+    height: 50px;
+    background: #00CED1;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    background: #05dce0;
+}
+
+.itens {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 100%;
+    gap: 8.7%;
+    /* margin: 0; */
+}
+
+.item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 230px;
+    height: 250px;
+    background-color: #00CED1;
+    font-size: 36px;
+    border-radius: 10px;
+    gap: 20%;
+}
+
+.card1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 24px;
+    margin: 0;
+}
+
+img {
+    width: 15%;
+    align-self: self-end;
+}

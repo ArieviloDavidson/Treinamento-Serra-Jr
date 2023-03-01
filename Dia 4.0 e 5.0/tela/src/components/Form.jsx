@@ -4,7 +4,7 @@ import './Form.css';
 export default function Form() {
   const [tarefas, settarefas] = useState([]);
 
-  function handleAddTask() {
+  function adicionar() {
     const newTask = document.querySelector('input').value;
     settarefas([...tarefas, newTask]);
     document.querySelector('input').value = '';
@@ -15,7 +15,7 @@ export default function Form() {
       <h2>Lista</h2>
       <div className='formulario'>
         <input type="text" placeholder='Nome'/>
-        <button className='botao' onClick={handleAddTask}>Adicionar</button>
+        <button className='botao' onClick={adicionar}>Adicionar</button>
       </div>
       <ul className='tarefas'>
         {tarefas.map((tarefa, index) => (
