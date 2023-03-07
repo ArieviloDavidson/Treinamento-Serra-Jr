@@ -12,7 +12,7 @@ export default function Form() {
 
   return (
     <div className='corpo'>
-      <h2>Lista</h2>
+      <h2 className='title'>Lista</h2>
       <div className='formulario'>
         <input type="text" placeholder='Nome'/>
         <button className='botao' onClick={adicionar}>Adicionar</button>

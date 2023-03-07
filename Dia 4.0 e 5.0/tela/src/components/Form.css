@@ -3,14 +3,21 @@
 .corpo {
     display: flex;
     flex-direction: column;
-    padding: 0px 5%;
     height: 100%;
-    width: 90%;
+    width: 95%;
+    overflow: hidden;
+}
+
+.title {
+    width: 100%;
 }
 
 .formulario {
     display: flex;
-    gap: 3%;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 2%;
 }
 
 input {
@@ -20,19 +27,12 @@ input {
     height: 60px;
     font-family: 'Magra';
     font-size: 20px;
-    justify-content: center;
-    padding-left: 3%;
-}
-
-::placeholder {
-    font-family: 'Magra';
-    font-size: 20px;
-    justify-content: center;
+    padding: 10px;
 }
 
 button {
     font-family: 'Magra';
-    width: 20%;
+    width: 18%;
     background: #00CED1;
     border: none;
     border-radius: 5px;
@@ -48,11 +48,11 @@ button:hover {
 .tarefas {
     display: flex;
     flex-direction: column;
+    padding: 0;
     gap: 10px;
     overflow-y: scroll;
 }
 
 .tarefa {
     list-style-type: none;
-    font-family: 'Magra';
 }
