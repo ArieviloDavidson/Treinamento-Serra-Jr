@@ -7,6 +7,7 @@
     text-align: center;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 h3 {
@@ -61,8 +62,8 @@ button:hover {
 .item {
     display: flex;
     flex-direction: column;
-    min-width: 180px;
-    height: 200px;
+    min-width: 140px;
+    height: 160px;
     gap: 30%;
     font-size: 24px;
     background-color: #00CED1;
